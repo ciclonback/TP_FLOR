@@ -39,8 +39,7 @@ public class Tarea{
         
         return tarea;
     }
-       
-    
+           
     public String crearListaTarea(File srcDir, File dstDir) {
         
         tarea = checkDirectory(srcDir, dstDir);
@@ -72,6 +71,11 @@ public class Tarea{
         }
         
         return tarea;
+    }
+    
+    public void ejecutarTareas (String tareas){
+    //Tareas
+        
     }
     
 }    
